@@ -1,0 +1,25 @@
+{
+  "Solutions": [
+    {
+      "id": 1,
+      "img": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services1.svg",
+      "name": "Home Loan",
+      "sual": "What are my options and the cost to exercise?",
+      "info": "Tools such as a profit simulator and tax simulator calculator show the showvalue of your stock options and exercise cost."
+    },
+    {
+      "id": 2,
+      "img": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services2.svg",
+      "name": "Car Loan",
+      "sual": "Should I exercise now or later? How can I afford it?",
+      "info": "Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 3,
+      "img": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services3.svg",
+      "name": "Business Loan",
+      "sual": "I own my shares - can I get liquidity now without selling?",
+      "info": "Tools such as a profit simulator and tax simulator calculator show the value of your stock options and exercise cost."
+    }
+  ]
+}

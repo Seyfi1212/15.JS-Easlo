@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #26BE9F;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbutton {
+    background-color: rgb(57, 201, 69);
+    border: none;
+    padding: 15px 25px;
+}
+
+.bir {
+    min-height: 100vh;
+    background-image: url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+}
+
+.bira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    .biraa {
+        max-width: 500px;
+        padding: 20px;
+
+        h1 {
+            color: white;
+            font-size: 50px;
+        }
+
+        p {
+            color: white;
+            font-size: 24px;
+        }
+
+        button {
+            padding: 23px 43px;
+            background: none;
+            color: white;
+            border-color: white;
+        }
+
+    }
+
+    .birab {
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        button{
+            padding: 10px 40px;
+            background-color: #0C8760;
+            border: none;
+            color: white;
+        }
+    }
+}
+
+.iki {
+    max-width: 100%;
+    background-color: #e6edf5;
+
+    .ikih2 {
+        text-align: center;
+        font-size: 40px;
+        color: #0F4332;
+        padding: 20px;
+    }
+
+    .ikip {
+        text-align: center;
+        font-size: 16px;
+        color: #6D6D6D;
+    }
+}
+
+.ikia {
+    max-width: 100%;
+    width: 100%;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 20px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+
+        img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+
+        span {
+            font-size: 14px;
+            color: #0C8760;
+        }
+
+        a {
+            font-size: 24px;
+            color: #0F4332;
+        }
+
+        p {
+            font-size: 18px;
+            color: #4C5753;
+        }
+    }
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.uc{
+    max-width: 100%;
+}
+.uca{
+    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    div{
+        max-width: 100%;
+        width: 500px;
+        min-height: 90px;
+        position: relative;
+        h2{
+            font-size: 40px;
+            color: #0F4332
+        }
+        p{
+            font-size: 16px;
+            padding: 15px 0px;
+        }
+        button{
+            border-color: #0C8760;
+            color: #0C8760;
+            padding: 13px 35px;
+        }
+        button:hover{
+                background-color: #0C8760;
+                color: white;
+            }
+
+        div{
+            max-width: 100%;
+            width: 200px;
+            height: 200px;
+            background-color: #0C8760;
+            position: absolute;
+            margin-bottom: -200px;
+            margin-left: 380px;
+            h3{
+                font-size: 72px;
+                color: white;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}
+
+.dord{
+    max-width: 100%;
+    padding-top: 250px;
+    h4{
+        text-align: center;
+        font-size: 40px;
+        color: #0F4332;
+    }
+    p{
+        text-align: center;
+    }
+}
+.dorda{
+    max-width: 100%;
+    width: 100%;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    
+    div{
+        .dorda1{
+            padding: 20px;
+            font-size: 24px;
+            color: #0F4332;
+            text-align: center;
+        }
+        img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            margin-left: 110px;
+        }
+        p{
+            font-size: 18px;
+            color: #4C5753;
+            text-align: center;
+        }
+    }
+}
+
+.bes{
+    max-width: 100%;
+    background-color: #f3f5f8;;
+}
+.besa{
+    max-width: 100%;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    div{
+        max-width: 100%;
+        width: 500px;
+        min-height: 80px;
+        h2{
+            font-size: 40px;
+            color: #0F4332;
+            padding: 20px 0px;
+        }
+        .besap{
+            font-size: 18px;
+            color: #0F4332;
+        }
+        button{
+            border-color: #0C8760;
+            color: #0C8760;
+            padding: 13px 35px;
+        }
+        button:hover{
+                background-color: #0C8760;
+                color: white;
+            }
+    }
+}
+.alti{
+    max-width: 100%;
+    h2{
+        text-align: center;
+        color: #0F4332;
+        font-size: 40px;
+        padding: 20px;
+    }
+}
+.altia{
+    max-width: 100%;
+    width: 100%;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    div{
+        img{
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+        }
+        h3{
+            font-size: 24px;
+            color: #0F4332;
+        }
+        p{
+            font-size: 18px;
+            color: #4C5753;
+        }
+    }
+}
+
+
+@media screen and (max-width:968px) {
+    .dorda{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .bira {
+        flex-direction: column;
+    }
+
+    .ikia {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .uca{
+        flex-direction: column;
+    }
+    .dorda{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .besa{
+        flex-direction: column;
+    }
+    .altia{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media screen and (max-width:568px) {
+    .ikia {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .dorda{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .altia{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+}
+
